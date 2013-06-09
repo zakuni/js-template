@@ -1,0 +1,16 @@
+{
+  "name": "zakuni-js-template",
+  "version": "0.0.1",
+  "main": "main.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "chai": "latest"
+  }
+}
