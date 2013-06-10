@@ -1,21 +1,15 @@
 var assert = chai.assert;
 
-suite('Array', function(){
-  setup(function(){
-    // ...
-  });
-
-  suite('#indexOf()', function(){
-    test('should return -1 when not present', function(){
-      assert.equal(-1, [1,2,3].indexOf(4));
+suite('Camera', function(){
+  var camera = new Camera();
+  suite('#Camera', function(){
+    test('is instance of Camera', function(){
+      assert.instanceOf(camera, Camera);    
     });
   });
-});
-
-suite('main', function(){
-  suite('a', function(){
-  	test('should be 1', function(){
-  	  assert.equal(1, a);
-  	});
+  suite('#take()', function(){
+    test('is function', function(){
+      assert.isFunction(camera.take);
+    });
   });
 });
