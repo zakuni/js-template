@@ -2,8 +2,6 @@
 (function() {
   var Camera;
 
-  window.a = 1;
-
   window.Camera = Camera = (function() {
     function Camera() {}
 
