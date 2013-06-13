@@ -1,3 +1,2 @@
-window.Camera = class Camera
-  take: ->
-    # do nothing
+require ['camera'], (camera) ->
+	null

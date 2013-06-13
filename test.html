@@ -9,11 +9,6 @@
   <script src="components/chai/chai.js"></script>
   <script src="components/mocha/mocha.js"></script>
   <script>mocha.setup('tdd');</script>
-  <script src="main.js"></script>
-  <script src="test/test.js"></script>
-  <script>
-    mocha.checkLeaks();
-    mocha.run();
-  </script>
+  <script src="components/requirejs/require.js" data-main="test/test"></script>
 </body>
 </html>
